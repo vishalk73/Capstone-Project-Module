@@ -15,11 +15,11 @@ public class SampleController {
 
     @GetMapping("hello")
     public String sayHello(){
-        return "Hello Vishal";
+        return "Hello Vishal Welcome";
     }
 
     @GetMapping("/bye")
     public String sayBye(){
-       return "Bye Vishal";
+       return "Bye Vishal take care";
     }
 }
