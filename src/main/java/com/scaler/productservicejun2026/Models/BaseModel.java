@@ -8,5 +8,5 @@ import lombok.Setter;
 public class BaseModel {
     private long id;
     private String slug;
-    private String images;
+    private String image;
 }
